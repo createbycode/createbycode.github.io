@@ -1,0 +1,151 @@
+---
+layout: default
+title: Create by Code
+---
+<header>
+	<div class="container">
+		<div class="column">
+			<div>
+				<h1 class="editable">Introducing micro:bit classes</h1>
+				<p class="editable">A micro:bit is a half credit card sized programmable computer with 2 buttons and 25 LEDs. It
+					has
+					bluetooth, accelerometer, compass and 19 ways to connect to the outside world. It is playable out of the box
+					and
+					is designed by BBC to teach computer science in the UK.</p>
+				<p>
+					In this course, kids will be taught programming using <a href="https://makecode.microbit.org/blocks">block
+						based programming</a>. The code they write in an online IDE will be downloaded into their personal micro:bit
+					and will run on it! In case you do not want to buy a micro:bit, the online IDE also has a virtual micro:bit to
+					try the code.
+				</p>
+				<p>
+					It will be roughly a 3 month course, with a personal project at the end. In the project, kids will chose what
+					they want to build and they will build it on their own under some guidance and together with other kids. You
+					can check out some of the cool projects <a href="https://microbit.org/projects/make-it-code-it/">here</a> to
+					give you an idea of what is possible.
+				</p>
+				<div class="button">
+					<a href="#touch">Get in touch</a>
+				</div>
+			</div>
+		</div>
+		<div class="column">
+			<img src="{{ site.baseurl }}/images/microbitbanner-1.png" alt="microbit_classes">
+		</div>
+	</div>
+</header>
+
+<div class="container">
+	<h2 class="editable" style="text-align: center;">Why learn the micro:bit</h2>
+
+	<ul class="thirds">
+		<li>
+			<div class="image">{% include icons/site.html icon="population" %}</div>
+			<h3 class="editable">Easy</h3>
+			<p class="editable">Learn the basics of programming using a drag and drop interface with code blocks!</p>
+		</li>
+
+		<li>
+			<div class="image">{% include icons/site.html icon="economy" %}</div>
+			<h3 class="editable">Proven</h3>
+			<p class="editable">micro:bit is an open sourced hardware designed by BBC for use in computer education in UK.</p>
+		</li>
+
+		<li>
+			<div class="image">{% include icons/site.html icon="conditions" %}</div>
+			<h3 class="editable">Loaded</h3>
+			<p class="editable">It comes loaded - can sense movement, light, temperature and it can
+				communicate over radio or bluetooth.</p>
+		</li>
+	</ul>
+</div>
+
+<div class="container">
+	<div class="columns">
+		<div>
+			<img src="{{ site.baseurl }}/images/kids-will-be-heroes.png" alt="kids-will-be-heroes">
+		</div>
+		<div>
+			<h2 class="editable">Our Mission</h2>
+
+			<p class="editable">To make children more creative and confident. Objective is to impart knowledge and challenge
+				them in a safe environment. Key result is when they know basics so well that they can program almost anything
+				independently.</p>
+			<p class="editable">There are many programs which teach programming today but they have 2 typical problems: (1)
+				they are canned and treat all kids the same and (2) most of them are in a hurry.</p>
+			<p class="editable">My idea is to put the fundamentals in place, even if it means that we take some extra time.
+				But when we reach there, we reach there in style!</p>
+		</div>
+	</div>
+</div>
+
+<!-- <div class="container">
+	<div class="columns">
+		<div>
+			<img src="{{ site.baseurl }}/images/kids-will-be-heroes.png" alt="kids-will-be-heroes">
+		</div>
+		<div>
+			<h2 class="editable">The curriculum</h2>
+
+			<p class="editable">Students will learn physical computing with micro:bit over 2 months with a final project
+			<p>
+		</div>
+	</div>
+</div> -->
+
+<div class="container">
+	<hr>
+	<blockquote>
+		<p class="quote editable">Don't limit a child to your own learning, for he was born in another time.</p>
+		<div class="attribute">
+			<p class="meta">
+				<span class="image"><img class="editable" src="{{ site.baseurl }}/images/Tagore.png" alt="Wooly"></span>
+				<span class="author editable"><strong>Rabindranath Tagore</strong></span>
+			</p>
+		</div>
+	</blockquote>
+</div>
+
+<!-- <div class="darker">
+	<div class="container">
+		<h2 class="editable">Join us</h2>
+		<p class="editable" style="text-align: center;">Sign up to hear the latest news and progress in our quest to make
+			kids better prepared for the future!</p>
+		<form action="{{ site.newsletter_action }}" method="post">
+			<input type="text" name="EMAIL" placeholder="Email">
+			<input type="submit" value="Sign up" />
+		</form>
+	</div>
+</div> -->
+
+<div class="container" id="touch">
+	<h2 class="editable">Get in touch</h2>
+	<div class="touch">
+		<iframe
+			src="https://docs.google.com/forms/d/e/1FAIpQLSeiHYAsgeLvBONwwrA7qJ5rfxD812G8PnRyxusD3vGS_A3ssw/viewform?embedded=true"
+			width="640" height="1400" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+	</div>
+</div>
+
+<!-- <div class="darker">
+	<div class="container">
+		<h2 class="editable">Updates</h2>
+		<p class="editor-link"><a href="cloudcannon:collections/_posts" class="btn"><strong>&#9998;</strong> Add Update</a>
+		</p>
+		<div class="posts">
+			{% for post in site.posts %}
+			<div class="post">
+				<div class="image" style="background-image: url({{ post.featured_image}})"></div>
+				<div class="post-content">
+					<p class="date">{{ post.date | date: '%B %d, %Y' }}</p>
+					<h3>{{ post.title }}</h3>
+
+					{{ post.content }}
+					<p class="editor-link"><a href="cloudcannon:collections/{{ post.path }}" class="btn"><strong>&#9998;</strong>
+							Edit Update</a></p>
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+</div> -->
